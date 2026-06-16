@@ -353,7 +353,8 @@ const Books = () => {
                       <p><strong>Bank Name:</strong> MCB Bank Limited</p>
                       <p><strong>Account Title:</strong> Abdul Ghaffar Bugti</p>
                       <p><strong>IBAN:</strong> PK29MUCB1658813331002802</p>
-                      <p><strong>Swift Code:</strong> MUCBPKKAXXX</p>
+                      <p><strong>Swift Code / Branch Code:</strong> MUCBPKKA / 8013</p>
+                      <p><strong>Branch Address:</strong> Fazal-ul-Haq Road, Islamabad</p>
                       <p><strong>Total Amount:</strong> USD ${getUSDTotal().toFixed(2)}</p>
                     </div>
                   )}

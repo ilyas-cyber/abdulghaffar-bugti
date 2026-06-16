@@ -129,10 +129,10 @@ const Donate = () => {
                     </div>
 
                     <div className="detail-row">
-                      <span className="detail-label">SWIFT Code</span>
+                      <span className="detail-label">SWIFT Code / Branch Code</span>
                       <div className="detail-value-wrap">
-                        <span className="detail-value">MUCBPKKAXXX</span>
-                        <button onClick={() => handleCopy('MUCBPKKAXXX', 'swift')} className="copy-btn">
+                        <span className="detail-value">MUCBPKKA / 8013</span>
+                        <button onClick={() => handleCopy('MUCBPKKA', 'swift')} className="copy-btn">
                           {copiedField === 'swift' ? <Check size={14} className="copied-icon" /> : <Copy size={14} />}
                         </button>
                       </div>
@@ -141,7 +141,7 @@ const Donate = () => {
                     <div className="detail-row">
                       <span className="detail-label">Branch & Address</span>
                       <div className="detail-value-wrap">
-                        <span className="detail-value">Dera Bugti Branch, Balochistan, Pakistan</span>
+                        <span className="detail-value">Fazal-ul-Haq Road Branch (Code: 8013), Islamabad, Pakistan</span>
                       </div>
                     </div>
                   </div>
